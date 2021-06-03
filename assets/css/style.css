@@ -1,0 +1,157 @@
+/* styling for all elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* background colour for the body of the page */
+body {
+    background-color: #d9dcd6;
+}
+
+/* styling for the header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* This div element has been changed to nav as it is more accurate for navigational links within the page */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* All paragraphs within the html targeted */
+p {
+    font-size: 16px;
+}
+
+/* Imagine in the middle of the page */
+.hero {
+    height: 1000px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    }
+
+/* Main part of the webpage with all three sections */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Targeting all the image tags within the main three sections */
+.content img {
+    max-height: 200px;
+}
+
+/* Targeting all h2 tags in the main three sections */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Using the Services class targeting the main three sections inside the main tag */
+.services {
+     padding: 50px;
+     margin-bottom: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     height: 300px;
+     color: #ffffff;
+     background-color: #0072bb;
+}
+
+/* Using the ID attribute targeting specifically the images in two of the main sections and positioning them to the left */
+#search-engine-optimization img,
+#social-media-marketing img {
+    margin-right: 25px;
+    float: left;
+    max-height: 200px;  
+}
+
+/* Using the ID attribute targeting specifically an image in the main section and positioning it to the right */
+#online-reputation-management img {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+/* Benefits on the right-hand side of the webpage */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    text-align: center;
+}
+
+/* Targeting all h3 tags in the benefits section of the webpage */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Targeting all images in the benefits section of the webpage */
+.image-benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Targeting all sections in the benefits section of the webpage */ 
+.benefits-content {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
